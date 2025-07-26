@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Solution {
+public class frequency {
     public static List<Integer> findMajority(int[] arr) {
         // Code here
         int n = arr.length;
@@ -40,7 +40,7 @@ public class Solution {
         return result;
     }
         public static void main(String[] args) {
-        int[] arr1 = {2, 1, 5, 5, 5, 5, 6, 6, 6, 6, 6};
+        int[] arr1 = {2, 1, 5, 5, 5, 5, 6, 6, 6, 6, 6 ,6,7,7,7,7,7} ;
         int[] arr2 = {1, 2, 3, 4, 5};
 
         System.out.println(findMajority(arr1)); 
