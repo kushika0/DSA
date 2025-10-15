@@ -35,7 +35,7 @@ public class frequency {
         if (count1 > n / 3) result.add(candidate1);
         if (count2 > n / 3) result.add(candidate2);
 
-        // Sort the result
+        
         Collections.sort(result);
         return result;
     }
